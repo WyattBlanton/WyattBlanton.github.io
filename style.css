@@ -31,7 +31,7 @@ body {
   text-decoration: none;
   margin-left: 20px;
   transition: color 0.3s ease;
-  font-weight: 400; /* Use regular weight for navigation */
+  font-weight: 400; 
 }
 
 .nav a:hover {
@@ -123,7 +123,7 @@ body {
 
 .why-text {
   flex: 1;
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: rgb(255, 255, 255, 0.1);
   padding: 20px;
   border-radius: 8px;
 }
@@ -131,14 +131,14 @@ body {
 .why-text p {
   line-height: 1.6;
   margin-bottom: 15px;
-  font-weight: 400; /* Use regular weight for paragraph text */
+  font-weight: 400; 
   color: white;
 }
 
 .why-text .emphasized {
   font-style: italic;
   color: #ffa90b;
-  font-weight: 600; /* Use semi-bold for emphasized text */
+  font-weight: 600; 
 }
 
 @media (max-width: 768px) {
@@ -162,12 +162,12 @@ body {
   color: white;
   padding: 20px;
   text-align: center;
-  font-size: 0.8em; /* Slightly smaller font size for the footer */
+  font-size: 0.8em; 
 }
 .story-recap {
   padding: 40px;
-  background-image: url("https://www.shutterstock.com/image-photo/asphalt-highway-textured-vector-background-1160399127"); /* Replace with a road image URL */
-  background-size: cover; /* Cover the entire section */
+  background-image: url("graphics/Backgroundimg.png");
+  background-size: cover;
   background-repeat: no-repeat;
   color: white;
 }
@@ -178,7 +178,7 @@ body {
   color: #e08e00;
   margin-bottom: 20px;
   text-align: center;
-  background-color: rgba(0, 0, 0, 0.7); /* Darker background for readability */
+  background-color: rgb(0, 0, 0, 0.7);
   padding: 15px;
   border-radius: 8px;
   max-width: fit-content;
@@ -190,27 +190,56 @@ body {
   padding: 20px;
   border-radius: 15px;
   margin-bottom: 20px;
-  max-width: 70%; /* Adjust width as needed */
+  max-width: 70%; 
 }
 
 .left-bubble {
-  background-color: rgba(255, 255, 255, 0.1); /* Light background for left bubbles */
-  margin-left: 5%; /* Push from the left */
+  background-color: rgb(115, 115, 115); 
+  margin-left: 5%;
+  color: white; 
 }
 
 .right-bubble {
-  background-color: rgba(255, 255, 255, 0.3); /* Slightly darker for right bubbles */
-  margin-right: 5%; /* Push from the right */
-  margin-left: auto; /* Push to the right */
+  background-color: rgb(100, 100, 100); 
+  margin-right: 5%;
+  margin-left: auto;
+  color: white; 
 }
 
 .story-item h3 {
   font-family: 'Poppins', sans-serif;
   font-weight: 600;
-  color: #ffa90b; /* Orange for the titles */
+  color: #ffa90b; 
   margin-bottom: 10px;
 }
 
 .story-item p {
   line-height: 1.6;
+}
+.sources {
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.7); 
+  color: white;
+  font-size: 0.9em; 
+  line-height: 1.4;
+}
+
+.sources h2 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  color: #e08e00; 
+  margin-bottom: 10px;
+}
+
+.sources p {
+  margin-bottom: 10px;
+}
+
+.sources a {
+  color: #ccc; 
+  text-decoration: none;
+}
+
+.sources a:hover {
+  text-decoration: underline;
 }
